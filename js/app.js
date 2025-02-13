@@ -9,8 +9,8 @@ const gifs = [
   "../resources/cat-heart.gif",
   "../resources/rusure.gif",
   "../resources/3shocked-1.gif",
-  "../resources/4.crying.gif",
-  "../resources/5.crying.gif",
+  "../resources/4-crying.gif",
+  "../resources/5-crying.gif",
   "../resources/idc.gif"
 ];
 
@@ -36,7 +36,7 @@ no.addEventListener("click", () => {
     no.style.width = "20%";
     count++;
   } else if (count == 4) {
-    gif.src = "../resources/4.crying.gif";
+    gif.src = "../resources/4-crying.gif";
     text.innerHTML = "Ти впевнена? 😭";
     yes.style.height = "80%";
     yes.style.width = "80%";
@@ -44,7 +44,7 @@ no.addEventListener("click", () => {
     no.style.width = "10%";
     count++;
   } else if (count == 5) {
-    gif.src = "../resources/5.crying.gif";
+    gif.src = "../resources/5-crying.gif";
     text.innerHTML = "В тебе немає інших варіантів 😏";
     yes.style.height = "90%";
     yes.style.width = "96%";
