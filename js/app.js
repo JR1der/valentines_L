@@ -56,7 +56,7 @@ yes.addEventListener("click", () => {
   vid.style.display = "block";
   gif.src = "./resources/idc.gif";
   text.innerHTML = "Я знав ❤️";
-  yes.innerHTML = '<a href="https://t.me/ivan_ppv">Напиши мені 🥰</a>';
+  yes.innerHTML = '<a href="https://t.me/ivan_ppv">Відповіла? Натисни 🥰</a>';
   yes.style.height = "90%";
   yes.style.width = "96%";
   no.style.display = "none";
